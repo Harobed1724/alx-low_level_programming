@@ -1,20 +1,24 @@
-#include "holberton.h"
+# include "main.h"
 
 /**
- * main -  prints _putchaR, followed by a new line
- * Return: Always 0 (Success)
- */
+*main - print out main char by char
+*description : uses the main header file
+*that containss the function _putchar
+*Return: 0.
+*/
+
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+char str[] = "_putchar";
+int i;
 
-	return (0);
+i = 0;
+while (str[i])
+{
+_putchar(str[i]);
+++i;
+}
+_putchar('\n');
+
+return (0);
 }
