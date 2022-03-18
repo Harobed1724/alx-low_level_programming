@@ -1,33 +1,29 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
-int _putchar(char c);
+int _isupper(int c);
 
-void print_alphabet(void);
+int _isdigit(int c);
 
-void print_alphabet_x10(void);
-
-void fibonacci(void);
+int mul(int a, int b);
 
 int _putchar(char c);
 
-int _islower(int c);
+void print_numbers(void);
 
-int _isalpha(int c);
+void print_numbers(void);
 
-int print_sign(int n);
+void print_most_numbers(void);
 
-int _abs(int);
+void more_numbers(void);
 
-void jack_bauer(void);
+void print_line(int n);
 
-int print_last_digit(int);
+void print_diagonal(int n);
 
-void print_times_table(int n);
+void print_square(int size);
 
-void times_table(void);
+void print_triangle(int size);
 
-int add(int a, int b);
-
-void print_to_98(int n);
+void print_number(int n);
 
 #endif
