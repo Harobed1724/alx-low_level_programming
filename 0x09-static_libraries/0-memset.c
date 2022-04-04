@@ -1,11 +1,17 @@
 #include "main.h"
 
 /**
- * _isupper - checks for uppercase character
- * @c: the character to be checked
- * Return: 1 if c is uppercase, 0 otherwise
+ * _memset - Entry point
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: bytes
+ * Return: Always 0 (Success)
  */
-int _isupper(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (c >= 'A' && c <= 'Z');
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		s[i] = b;
+	return (s);
 }
